@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="pp.js"></script>
+    <link rel="shortcut icon" href="trofeu.png" type="image/x-icon">k
+</head>
+<body>
+
+    <style>
+
+@font-face {
+    font-family: [batata];
+    src: url("https://fonts.google.com/noto/specimen/Noto+Serif");
+}
+body{background-color:#273c75; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;}
+#campo{background-color: #f1e9cc; width: 1200px;height: 680px; margin-left: 10%; margin-top: 2%; border-radius: 5%;}
+#head{width: 1200px ; height: 180px; ; margin-left: 0%; border-radius: 5%;}
+#foto{width: 150px; height: 150px; margin-left: 7%;margin-top: 0%;}
+#nome{margin-top: -12%; margin-left: 25%;}
+#subtitulo{margin-left: 25%; margin-top: -1%;}
+#projetos{height: 530px; width: 1200px; background-color: #55efc4; margin-left: 0%;border-radius: 5%; margin-top: -2%;} 
+#mpro{position: absolute;margin-left: 27%; margin-top: 1%;}   
+a{color: black;}
+ul{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+ul{position: absolute;margin-top: 5%; margin-left: 5%;color: #2d3436;}
+a{color: #2d3436; text-decoration: none;}
+
+    </style>
+
+    <div id="campo">
+
+        <div id="head">
+
+            
+
+                <img id="foto" src="minha foto .png" alt="">
+                <h1 id="nome"><strong>Luiggy Augusto Lima  Alves</strong></h1>
+                <h2 id="subtitulo"><strong>Programador e web developper</strong></h2>
+
+          
+            
+
+        </div>
+
+        <div id="projetos">
+
+            <h1 id="mpro"><strong>MEUS PROJETOS</strong></h1>
+
+           <div id="listaProjetos">
+
+
+            <ul>
+
+               <a class="projetos" href="conversordemoedas.html"> <li><h1 id="cv"><strong>🧾Conversor De Moedas</strong></h1></li></a>
+                <li class="projetos"><h1><strong>🧠 Projeto do Mentalista</strong></h1></li>
+                <l class="projetos"i><h1><strong>🏆 Tabela De Classificação</strong></h1></li>
+                <li class="projetos"><h1><strong>🎥 Projeto da Alura Flix</strong></h1></li>
+                <li class="projetos"><h1><strong>👨‍🎓 Calculador De Médias</strong></h1></li>
+
+
+            </ul>
+
+
+           </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    
+</body>
+</html>
